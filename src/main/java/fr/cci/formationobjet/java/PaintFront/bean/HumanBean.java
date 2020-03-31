@@ -11,6 +11,8 @@ public class HumanBean {
 	private int age;
 	
 	
+	public HumanBean() {	}
+	
 	public Long getID() {
 		return ID;
 	}
@@ -18,13 +20,7 @@ public class HumanBean {
 	public void setID(Long iD) {
 		ID = iD;
 	}
-
-
-
 	
-	
-	public HumanBean() {	}
-
 	public String getName() {
 		return name;
 	}
@@ -39,11 +35,6 @@ public class HumanBean {
 
 	public void setAge(int age) {
 		this.age = age;
-	}
-	
-	@Transient
-	public String getTruc() {
-		return "machin";
 	}
 
 	
